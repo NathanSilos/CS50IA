@@ -167,7 +167,7 @@ def minimax(board):
 
     possibilities = actions(board)
 
-    if player == X:
+    if actual_player == X:
         # Get the max value
         max_v = float('-inf')
 
